@@ -39,7 +39,7 @@ const App = () => {
       {printUserData}
       </div>
 
-      <div className='flex justify-center items-center gap-6 p-4'>
+      <div className='flex justify-center items-center gap-6 p-4 fixed bottom-0 left-0 w-full bg-black'>
         <button style={{opacity: index== 1 ? 0.5 : 1}} className='bg-amber-400 text-sm text-black rounded px-5 py-3 font-semibold cursor-pointer active:scale-95'
         onClick={()=>{
           if(index>1){
